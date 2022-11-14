@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Maquette</title>
 </head>
@@ -59,40 +62,49 @@
                     
 
                         <div class="cellule">
-                          <ul class="service__item">
+                            <ul class="service__item">
                               <li class="service__item-list">
+                                <div class="child__1">
 
-                                <img src="image/main.png" alt="icone"> <br> <h2>Service 1</h2> <br>
-                                <p>Lorem ipsum dolor sit <br> amet, consectetur <br> adipiscing elit, sed do <br> eiusmod tempor ... </p> <br>
-                                <h3> <input type="submit" value="Découvrir">  </h3>
+                                  <img src="image/main.png" alt="icone"> <br> <h2>Service 1</h2> <br>
+                                  <p class="text">Lorem ipsum dolor sit <br> amet, consectetur <br> adipiscing elit, sed do <br> eiusmod tempor ... </p> <br>
+                                  <h3 class="click"> <input type="submit" value="Découvrir">  </h3>
+
+                                </div>
 
                               </li>
                             
                            
                                 <li class="service__item-list">
-                                    <img src="image/main.png" alt="icone"> <br> <h2>Service 2</h2> <br>
-                                    <p>Lorem ipsum dolor sit <br> amet, consectetur <br> adipiscing elit, sed do <br> eiusmod tempor ... </p> <br>
-                                    <h3> <input type="submit" value="Découvrir">  </h3>
+                                    <div class="child__2">
+                                      <img src="image/main.png" alt="icone"> <br> <h2>Service 2</h2> <br>
+                                      <p class="text">Lorem ipsum dolor sit <br> amet, consectetur <br> adipiscing elit, sed do <br> eiusmod tempor ... </p> <br>
+                                      <h3 class="click"> <input type="submit" value="Découvrir">  </h3>
+                                    </div>
                                 </li>
                               
                             
                                 <li class="service__item-list">
-                                    <img src="image/main.png" alt="icone"> <br> <h2>Service 3</h2> <br>
-                               <p>Lorem ipsum dolor sit <br> amet, consectetur <br> adipiscing elit, sed do <br> eiusmod tempor ... </p> <br>
-                               <h3> <input type="submit" value="Découvrir">  </h3>
+                                    <div class="child__3">
+                                      <img src="image/main.png" alt="icone"> <br> <h2>Service 3</h2> <br>
+                                      <p class="text">Lorem ipsum dolor sit <br> amet, consectetur <br> adipiscing elit, sed do <br> eiusmod tempor ... </p> <br>
+                                      <h3 class="click"> <input type="submit" value="Découvrir">  </h3>
+                                    </div>
                                 </li>
                                
                                 <li class="service__item-list">
-                                    <img src="image/main.png" alt="icone"> <br> <h2>Service 4</h2> <br>
-                               <p> <span> Lorem ipsum dolor sit <br> amet, consectetur <br> adipiscing elit, sed do <br> eiusmod tempor ...</span> </p> <br>
-                               <h3> <input type="submit" value="Découvrir"> </h3>
+                                    <div class="child__4">
+                                      <img src="image/main.png" alt="icone"> <br> <h2>Service 4</h2> <br>
+                                      <p class="text">  Lorem ipsum dolor sit <br> amet, consectetur <br> adipiscing elit, sed do <br> eiusmod tempor ... </p> <br>
+                                      <h3 class="click"> <input type="submit" value="Découvrir"> </h3>
+                                    </div>
                                 </li>
                             </ul>
                    
 
                         </div>
                         <div class="button">
-                            <h3> <input type="submit" value="Découvrir"> </h3>
+                            <h3 class="click__inner"> <input type="submit" value="Découvrir"> </h3>
                         </div>
                         
                     </div>
@@ -104,52 +116,57 @@
                  
              <section class="contacts">
                  <div class="container">
-                     <div class="contacts__inner">
+                    <div class="contacts__inner"> 
+                          
+                        <h1> Pour nous contactez</h1>
                      
-                     <h1> Pour nous contactez</h1> <br>
-                     
-                       <div class="name">
-                     <form action="traitement.php" method="post">
-                         <p> 
-                             <label for="nom_et_prenom">Nom et prénoms </label> <br>
-                             <input type="text" name="nom et prenom" id="form" placeholder="Nom et prénoms">
-                        </p>
-                     </form> 
-                       </div>
-                    </div> <br> 
+                        <div class="name">
+                           <form action="traitement.php" method="post">
+                             <p> 
+                               <label for="nom_et_prenom">Nom et prénoms </label> 
+                               <input type="text" name="nom et prenom" id="form" placeholder="Nom et prénoms">
+                             </p>
+                          </form> 
+                        </div>
+                  
 
-                    <div class="mail">
+                        <div class="mail">
 
-                     <form action="traitement.php" method="post">
-                        <p> 
-                            <div class="call"> <label class="adress" for="e_mail">E-mail</label> </div>
-                            <input type="text" name="e-mail" id="form" placeholder="E-mail">
-                        </p>
-                     </form>
-                    </div> <br>
+                            <form action="traitement.php" method="post">
+                              <p> 
+                                <div class="call"> <label class="adress" for="e_mail">E-mail</label> </div>
+                                <input type="text" name="e-mail" id="form" placeholder="E-mail">
+                              </p>
+                            </form>
+                        </div> 
 
-                    <div class="objet">
-                     <form action="traitement.php" method="post">
-                        <p>
-                             <label for="objet">Objet </label>  <br>
-                             <input type="text" name="objet" id="form" placeholder="Objet">
-                        </p>
-                     </form> 
-                    </div> <br>
+                        <div class="objet">
+                             <form action="traitement.php" method="post">
+                               <p>
+                                  <label for="objet">Objet </label>  
+                                  <input type="text" name="objet" id="form" placeholder="Objet">
+                                </p>
+                            </form> 
+                        </div> 
 
-                    <div class="message">
-                     
-                        <p>
-                            <label for="message">Message</label> <br>
-                             <textarea name="Message" placeholder="Message" id="Message" cols="50" rows="10"></textarea>
-                        </p>
+                        <div class="message">
+                   
+                                <p>
+                                   <label for="message">Message</label> 
+                                   <textarea name="Message" placeholder="Message" id="Message" cols="50" rows="10"></textarea>
+                                </p>
 
-                    </div> <br>
-                    <div class="send"> 
+                        </div> 
+                        <div class="send"> 
 
-                      <br> <p><input type="submit" value="Envoyez"> </p>
+                                 <p> <input type="submit" value="Envoyez"> </p>
 
-                     </div>
+                        </div>
+                          
+                
+
+                    </div>
+                      
                  </div>
              </section> 
 
