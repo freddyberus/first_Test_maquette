@@ -373,10 +373,21 @@ top: 676px;
 background: #7A96FF;
 border-radius: 35px;
 cursor: pointer;
+
+
+
+
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: #000;
 }
 
 .command:hover {
 	background: #2D5298;
+	color: #fff;
    
 }
 
@@ -384,16 +395,7 @@ cursor: pointer;
 .click__inner {
 
 
-height: 25px;
-width: 91px;
-left: 0px;
-top: 0px;
-font-size: 18px;
-font-weight: 600;
-line-height: 25px;
-letter-spacing: 0em;
-text-align: left;
-color: #000;
+
 }
 
 .click__inner:hover {
@@ -543,13 +545,9 @@ width: 251px;
 height: 58px;
 background: #7A96FF;
 left: 400px;
-}
+cursor: pointer;
 
-.send__text {
 
-left: 87px;
-width: 77px;
-height: 25px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
@@ -563,6 +561,17 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
+
+
+}
+ .send:hover {
+	background: #2D549B;
+	color: #fff;
+    
+ }
+
+.send__text {
+
 
 }
 
