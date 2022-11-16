@@ -104,7 +104,7 @@ body {
 }
 
 
-aside {
+.banner-left {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -114,12 +114,12 @@ aside {
 
 }
 
-article {
+.banner-right {
 	margin-left: 123px;
   }
 
 
-aside > h1 {
+.great-title {
 	color: #fff;
 	font-size: 48px;
 	font-style: normal;
@@ -130,7 +130,7 @@ aside > h1 {
 	
 }
 
-aside > p {
+.summary {
 	color: #fff;
 	font-style: normal;
 	font-weight: 400;
@@ -185,7 +185,7 @@ input:hover {
 
 }
 
-.services__inner h1 {
+.give {
 	
 	font-size: 32px;
 	font-weight: 700;
@@ -200,7 +200,7 @@ input:hover {
 	
 	}
 	
-	.services__inner p {
+	.great-text {
 		
 	font-size: 16px;
 	font-weight: 400;
@@ -216,7 +216,7 @@ input:hover {
 
 
 
-.service__item {
+.service__list {
 	display: flex;
 	align-items: center;
 	flex-direction: row;
@@ -229,12 +229,12 @@ input:hover {
 }
 
 
-.service__item > li {
+.service__list > li {
 	  list-style: none;
   }
 
 
-  .child__1 {
+  .first__child {
 	height: 371px;
 width: 241px;
 right: 80px;
@@ -245,7 +245,7 @@ box-shadow: 0px 4px 9px 0px #00000033;
 
   }
 
-  .child__2 {
+  .second__child {
 	height: 371px;
 	width: 241px;
     right: 60px;
@@ -256,7 +256,7 @@ box-shadow: 0px 4px 9px 0px #00000033;
 	
   }
 
-  .child__3 {
+  .third__child {
 	height: 371px;
 	width: 241px;
 	right: 40px;
@@ -267,7 +267,7 @@ box-shadow: 0px 4px 9px 0px #00000033;
 	
   }
 
-  .child__4 {
+  .fourth__child {
 	height: 371px;
 	width: 241px;
 	right: 20px;
@@ -278,24 +278,25 @@ box-shadow: 0px 4px 9px 0px #00000033;
 	
   }
 
-  .child__1 h2 {
+  .little__first-title {
 	width: 106px;
     height: 29px;
     left: 67px;
-    top: 50px;
+    top: 40px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
     color: #000000;
+
   }
 
-  .child__2 h2 {
+  .little__second-title {
 	width: 111px;
     height: 29px;
     left: 65.33px;
-    top: 50px;
+    top: 40px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -304,11 +305,11 @@ box-shadow: 0px 4px 9px 0px #00000033;
     color: #000000;
   }
 
-  .child__3 h2 {
+  .little__third-title {
 	width: 111px;
     height: 29px;
     left: 64.67px;
-    top: 50px;
+    top: 40px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -318,11 +319,11 @@ box-shadow: 0px 4px 9px 0px #00000033;
   }
 
 
-  .child__4 h2 {
+  .little__fourth-title {
 	width: 113px;
     height: 29px;
     left: 64px;
-    top: 50px;
+    top: 40px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -342,35 +343,65 @@ gap: 10px;
 width: 194px;
 height: 47px;
 left: 25.5px;
-top: 60px;
+top: 90px;
 border-radius: 35px;
 }
 
 .text {
 	width: 211px;
 height: 100px;
-right: 225px;
-top: 5px;
+left: 10px;
+top: 60px;
 font-size: 16px;
 line-height: 25px;
 text-align: center;
 color: #000000;
 }
 
-.click__inner {
-
+.command {
+	display: flex;
+flex-direction: row;
+justify-content: center;
 align-items: center;
 padding: 10px;
 gap: 10px;
-height: 64px;
-top: 95px;
-border-radius: 35px;
 width: 292px;
-display: flex;
+height: 64px;
+position: absolute;
+left: 370px;
+top: 676px;
+background: #7A96FF;
+border-radius: 35px;
+cursor: pointer;
+}
+
+.command:hover {
+	background: #2D5298;
+   
+}
+
+
+.click__inner {
+
+
+height: 25px;
+width: 91px;
+left: 0px;
+top: 0px;
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: #000;
+}
+
+.click__inner:hover {
+	color: #fff;
 
 }
 
-.service__item-list {
+.service__list-item {
 	height: 371px;
     width: 241px;
     top: 12.5px;
@@ -382,7 +413,7 @@ display: flex;
 
 
 
-.service__item-list img {
+.service__list-item img {
 	left: 85.5px;
 	height: 64px;
     width: 64px;
@@ -460,12 +491,8 @@ label{
 	top: 25px;
 }
 
-.call {
-	top: 25px;
-}
 
-
-.contacts__inner h1 {
+.calling {
 	
 font-size: 32px;
 font-weight: 700;
@@ -494,9 +521,6 @@ background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
 .mail label {
 	
 width: 759px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
 
 }
 
@@ -514,30 +538,51 @@ width: 759px;
 
 .send {
 	
-width: 251px;
 border-radius: 35px;
+width: 251px;
+height: 58px;
+background: #7A96FF;
+left: 400px;
+}
+
+.send__text {
+
+left: 87px;
+width: 77px;
+height: 25px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
 
 }
 
 textarea {
-	height: 160px;
+height: 160px;
 width: 759px;
 left: 0px;
 top: 24px;
 border-radius: 15px;
 padding: 20px 10px 10px 25px;
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
 
 }
 
-.send p {
+#Message {
 	
-width: 77px;
-font-size: 18px;
-font-weight: 600;
+font-size: 15px;
+font-weight: 700;
 line-height: 25px;
-letter-spacing: 0em;
 text-align: left;
-
 }
 
 /*
@@ -546,21 +591,19 @@ text-align: left;
 
 .footer {
 	
-	width: 1700px;
-    left: 0px;
-    border-radius: 0px;
     background-color: #2D5298;
 	height: 124px;
+	font-weight: 700;
 }
 
 
-.footer__inner {
 
-font-size: 19px;
-font-weight: 700;
-padding-top: 52px;
-color: #fff;
-font-family: 'Montserrat';
-font-style: normal;
-padding-left: 375px;
+.footer__text {
+	color: #fff;
+	font-size: 16px;
+	height: 20px;
+    width: 236px;
+    margin: auto;
+    top: 52px;
+   
 }
