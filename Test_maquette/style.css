@@ -139,32 +139,28 @@ body {
 	margin-bottom: 30px;
   }
 
-input {
-	font-style: normal;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 25px;
-	color: #000;
+  .click__banner {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 10px;
-	gap: 10px;
-	background-color: #7a96ff;
-	border-radius: 35px;
-	height: 49px;
-    width: 194px;
-	cursor: pointer;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+width: 194px;
+height: 49px;
+background: #7A96FF;
+border-radius: 35px;
+flex: none;
+order: 2;
+flex-grow: 0;
+cursor: pointer;
+  }
 
-}
+  .click__banner:hover {
+	background: #2D549B;
+	color: #fff;
 
-input:hover {
-	background: #2D5298;
-    color: #fff;
-
-
-}
+  }
 
 /*
 *service
@@ -345,6 +341,13 @@ height: 47px;
 left: 25.5px;
 top: 90px;
 border-radius: 35px;
+background: #7A96FF;
+cursor: pointer;
+}
+
+.click:hover {
+	background: #2D549B;
+    color: #fff;
 }
 
 .text {
@@ -373,10 +376,6 @@ top: 676px;
 background: #7A96FF;
 border-radius: 35px;
 cursor: pointer;
-
-
-
-
 font-size: 18px;
 font-weight: 600;
 line-height: 25px;
@@ -392,16 +391,6 @@ color: #000;
 }
 
 
-.click__inner {
-
-
-
-}
-
-.click__inner:hover {
-	color: #fff;
-
-}
 
 .service__list-item {
 	height: 371px;
@@ -443,6 +432,14 @@ align-items: center;
 
 }
 
+input {
+
+border: 1px solid #535353;
+font-family: 'Montserrat';
+font-style: normal;
+}
+
+
 .name {
 	display: flex;
 flex-direction: column;
@@ -479,19 +476,40 @@ padding-top: 73px;
 
 }
 
+.mail__inner {
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+}
+.objet__inner {
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+
+}
+
+
 .message {
     padding-top: 20px;
 }
 
-.send {
-	margin-top: 30px;
-	
-}
 
 
 label{
 	top: 25px;
+	height: 18px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #000000;
+
 }
+
+
 
 
 .calling {
@@ -520,18 +538,6 @@ background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
 
 }
 
-.mail label {
-	
-width: 759px;
-
-}
-
-.objet {
-	
-width: 759px;
-
-}
-
 .message {
     
 width: 759px;
@@ -546,8 +552,6 @@ height: 58px;
 background: #7A96FF;
 left: 400px;
 cursor: pointer;
-
-
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
@@ -561,6 +565,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
+top: 40px;
 
 
 }
@@ -570,10 +575,6 @@ align-items: center;
     
  }
 
-.send__text {
-
-
-}
 
 textarea {
 height: 160px;
@@ -582,16 +583,10 @@ left: 0px;
 top: 24px;
 border-radius: 15px;
 padding: 20px 10px 10px 25px;
-background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+border: 1px solid #535353;
+font-family: 'Montserrat';
+font-style: normal;
 
-}
-
-#Message {
-	
-font-size: 15px;
-font-weight: 700;
-line-height: 25px;
-text-align: left;
 }
 
 /*
