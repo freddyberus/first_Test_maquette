@@ -437,21 +437,15 @@ input {
 border: 1px solid #535353;
 font-family: 'Montserrat';
 font-style: normal;
-}
 
+}
 
 .name {
 	display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
-gap: 6px;
 width: 759px;
 height: 69px;
-flex: none;
-order: 0;
-flex-grow: 0;
-padding-top: 73px;
 
 }
 
@@ -459,27 +453,41 @@ padding-top: 73px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	padding: 0px;
-	gap: 6px;
 	width: 759px;
 	height: 69px;
-	flex: none;
-	order: 0;
-	flex-grow: 0;
-	padding-top: 89px;
+	top: 20px;
+	
 }
 
 
 .objet {
 	
-	padding-top: 89px;
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 759px;
+height: 69px;
+top: 20px;
 
 }
+
+
+.message {
+
+	display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 759px;
+height: 184px;
+top: 30px;
+}
+
 
 .mail__inner {
 	display: flex;
 flex-direction: column;
 align-items: flex-start;
+
 
 }
 .objet__inner {
@@ -487,18 +495,17 @@ align-items: flex-start;
 flex-direction: column;
 align-items: flex-start;
 
-
 }
 
 
-.message {
-    padding-top: 20px;
-}
+.form {
+	top: 73px;
 
+}
 
 
 label{
-	top: 25px;
+	top: 20px;
 	height: 18px;
 font-family: 'Montserrat';
 font-style: normal;
@@ -538,11 +545,7 @@ background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
 
 }
 
-.message {
-    
-width: 759px;
 
-}
 
 .send {
 	
@@ -565,7 +568,8 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-top: 40px;
+top: 150px;
+left: 10px;
 
 
 }
