@@ -36,8 +36,8 @@
                     <div class="banner__inner">
                        
                         <aside class="banner-left">
-                            <h1 class="great-title">Work Hard</h1>  
-                            <p class="summary">
+                            <h1 class="banner-title">Work Hard</h1>  
+                            <p class="text__banner">
                                Lorem ipsum dolor sit amet, consectetur 
                                adipiscing elit, sed do eiusmod tempor incididunt 
                                ut labore et dolore magna aliqua. Ut enim ad 
@@ -45,7 +45,7 @@
                                laboris nisi ut aliquip ex ea commodo consequat
                                Duis aute irure .
                             </p> 
-                            <button class="click__banner">
+                            <button class="App-btn">
                                    Découvrir 
                             </button>
                         </aside>
@@ -67,87 +67,91 @@
                    
                     <div class="services__inner">
 
-                        <h2 class="give">Nos services</h2>
-                        <p class="great-text">
+                        <h2 class="service__tittle">Nos services</h2>
+
+                        <p class="description">
                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                           incididunt ut labore et dolore magna aliqua.isi ut aliquip ex ea commodo consequat.
                         </p>
 
-                    
+                          <div class="service__list">
+                              <article class="offers">
 
-                        <div class="offer">
-                            <ul class="service__list">
-                              <li class="service__list-item">
-                                <div class="first__child">
-
-                                  <img src="image/main.png" alt="icone"> 
-                                  <h3 class="little__first-title">Service 1</h3>
+                                  <div class="service__image">
+                                      <img src="image/main.png" alt="icone"> 
+                                  </div>
+                                  <h3 class="little__title">Service 1</h3>
                                   <p class="text">
                                     Lorem ipsum dolor sit 
                                     amet, consectetur 
                                     adipiscing elit, sed do 
                                     eiusmod tempor ... 
                                   </p> 
-                                  <button class="click">
+                                  <button class="App-btn">
                                         Découvrir 
                                   </button>
-
-                              </li>
-                            
-                           
-                                <li class="service__list-item">
-                                    <div class="second__child">
-                                      <img src="image/main.png" alt="icone"> 
-                                      <h3 class="little__second-title">Service 2</h3> 
-                                      <p class="text">
-                                        Lorem ipsum dolor sit 
-                                         amet, consectetur 
-                                         adipiscing elit, sed do 
-                                          eiusmod tempor ... 
-                                      </p> 
-                                      <button class="click">
-                                          Découvrir 
-                                      </button>            
-                                </li>
                               
-                            
-                                <li class="service__list-item">
-                                    <div class="third__child">
-                                      <img src="image/main.png" alt="icone"> 
-                                      <h3 class="little__third-title">Service 3</h3>
-                                      <p class="text">
-                                        Lorem ipsum dolor sit 
-                                        amet, consectetur 
-                                        adipiscing elit, sed do 
-                                         eiusmod tempor ... 
-                                      </p> 
-                                      <button class="click">
-                                           Découvrir 
-                                      </button>
-                                </li>
-                               
-                                <li class="service__list-item">
-                                    <div class="fourth__child">
-                                      <img src="image/main.png" alt="icone"> 
-                                      <h3 class="little__fourth-title">Service 4</h3> 
-                                      <p class="text"> 
-                                         Lorem ipsum dolor sit 
-                                         amet, consectetur 
-                                         adipiscing elit, sed do 
-                                         eiusmod tempor ... 
-                                      </p>
-                                      <button class="click">
-                                           Découvrir 
-                                      </button> 
-                                    </div>
-                                </li>
-                            </ul>
-                   
+                              </article>
 
-                        </div>
-                        <button class="command">
-                            <span class="click__inner"> Découvrir </span>
-                        </button>
+                              <article class="offers">
+
+                                <div class="service__image">
+                                    <img src="image/main.png" alt="icone"> 
+                                </div>
+                                <h3 class="little__title">Service 2</h3>
+                                <p class="text">
+                                  Lorem ipsum dolor sit 
+                                  amet, consectetur 
+                                  adipiscing elit, sed do 
+                                  eiusmod tempor ... 
+                                </p> 
+                                <button class="App-btn">
+                                      Découvrir 
+                                </button>
+                            
+                              </article>
+
+                            <article class="offers">
+
+                              <div class="service__image">
+                                  <img src="image/main.png" alt="icone"> 
+                              </div>
+                              <h3 class="little__title">Service 3</h3>
+                              <p class="text">
+                                Lorem ipsum dolor sit 
+                                amet, consectetur 
+                                adipiscing elit, sed do 
+                                eiusmod tempor ... 
+                              </p> 
+                              <button class="App-btn">
+                                    Découvrir 
+                              </button>
+                          
+                            </article>
+
+                           <article class="offers">
+
+                            <div class="service__image">
+                                <img src="image/main.png" alt="icone"> 
+                            </div>
+                            <h3 class="little__title">Service 4</h3>
+                            <p class="text">
+                              Lorem ipsum dolor sit 
+                              amet, consectetur 
+                              adipiscing elit, sed do 
+                              eiusmod tempor ... 
+                            </p> 
+                            <button class="App-btn">
+                                  Découvrir 
+                            </button>
+                        
+                           </article>
+
+                          </div>
+                             
+                          <button class="App-btn">
+                                  Découvrir 
+                          </button>
                         
                     </div>
                 </div>
@@ -160,55 +164,38 @@
                  <div class="container">
                     <div class="contacts__inner"> 
                       
-                        <h2 class="calling"> Pour nous contactez</h2>
-                      <div class="form">
-                       
-                        <div class="name">
-                           <form action="traitement.php" method="post">
-                              <div class="name__inner">
-                               <label for="nom_et_prenom">Nom et prénoms </label> 
-                               <input class="box" type="text" name="nom et prenom" id="form" placeholder="Nom et prénoms">
-                              </div>
-                          </form> 
-                        </div>
+                        <h2 class="contacts__titlle"> Pour nous contactez</h2>
 
-                        <div class="mail">
-                             <form action="traitement.php" method="post">
-                                <div class="mail__inner">
-                                   <label for="e_mail">E-mail</label> 
-                                   <input class="box" type="text" name="e-mail" id="form" placeholder="E-mail">
-                                </div>
-                             </form>
-                        </div> 
+                      <div class="contacts__form-wrap">
+                        <form action="traitement.php" method="post"> 
+                          <div class="cpn-form-row">
+                            <label for="user__name" class="cpn-form-row__label">Nom et prénoms </label> 
+                            <input class="box" type="text" name="nom et prenom" id="form" placeholder="Nom et prénoms">
+                          </div>
+                          <div class="cpn-form-row">
+                            <label for="user_mail" class="cpn-form-row__label">E-mail</label> 
+                            <input class="box" type="text" name="e-mail" id="form" placeholder="E-mail">
+                          </div>
+                          <div class="cpn-form-row">
+                            <label for="user__objet" class="cpn-form-row__label">Objet </label>  
+                            <input class="box" type="text" name="objet" id="form" placeholder="Objet">
+                          </div>
+                          <div class="cpn-form-row">
+                            <label for="user__message" class="cpn-form-row__label">Message</label> 
+                            <textarea class="box" name="Message" placeholder="Message" id="Message" cols="50" rows="10"></textarea>
+                          </div>
+                          <div class="cpn-form-row--btns">
+                            <button class="App-btn">
+                                 Envoyez
+                            </button>
+                          </div>
 
-                        <div class="objet">
-                             <form action="traitement.php" method="post">
-                                <div class="objet__inner">
-                                  <label for="objet">Objet </label>  
-                                  <input class="box" type="text" name="objet" id="form" placeholder="Objet">
-                                </div>
-                             </form> 
-                        </div> 
-
-                        <div class="message">
-                   
-                                <div class="message__inner"></div>
-                                   <label for="message">Message</label> 
-                                   <textarea class="box" name="Message" placeholder="Message" id="Message" cols="50" rows="10"></textarea>
-                                </div>
-                        </div> 
-                        <button class="send">
-                            
-                           <span class="send__text"> Envoyez </span> 
-
-                        </button>
+                        </form> 
+                        
                       </div>
-                          
-                
 
                     </div>
-                      
-                 </div>
+                  </div>
              </section> 
 
             </div>
